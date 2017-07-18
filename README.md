@@ -1,4 +1,4 @@
-# Interface for inertial(oxts2000) and lidar(velodyne hdl-32e) of VeCaN UGV
+# Interface for inertial(oxts2000) and lidar(velodyne hdl-32e)
 
 
 ## Features
