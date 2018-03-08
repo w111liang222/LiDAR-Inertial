@@ -308,7 +308,7 @@ int velodyneHDL32E::saveDataToFile(int fileIndex)
 
 	char fileIndexString[10] = "";
 	sprintf(fileIndexString, "%06d", fileIndex);
-	string fileName = OfflineFilePrefix + fileIndexString + OfflineFileSuffix;
+	string fileName = OnlineFilePrefix + fileIndexString + OnlineFileSuffix;
 
 	FILE *veloFp = nullptr;
 	veloFp = fopen(fileName.c_str(), "wb");
